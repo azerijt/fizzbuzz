@@ -8,18 +8,9 @@ export default function fizzBuzz(n: number): string {
     } else if (i % 5 === 0) {
       result.push("Buzz");
     } else {
-      result.push(i.toString());
-    }
-  }
+      result.push((n > 0 ? i : -i).toString());
 
-  if (n < 0) {
-    result = result.map((val) => {
-      if (val === "Fizz" || val === "Buzz" || val === "FizzBuzz") {
-        return val;
-      } else {
-        return `-${val}`;
-      }
-    });
+    }
   }
 
   return result.join(", ");

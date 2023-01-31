@@ -9,7 +9,7 @@ describe("fizzbuzz", () => {
 });
 
 describe("fizzbuzz", () => {
-  it("returns the correct output for negative n = -15", () => {
+  it("returns the correct output for negative n = -5", () => {
     expect(fizzbuzz(-5)).toEqual(
       "-1, -2, Fizz, -4, Buzz"
     );
