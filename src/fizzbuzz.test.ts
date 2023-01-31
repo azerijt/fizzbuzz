@@ -7,3 +7,13 @@ describe("fizzbuzz", () => {
     );
   });
 });
+
+describe("fizzbuzz", () => {
+  it("returns the correct output for negative n = -15", () => {
+    expect(fizzbuzz(-5)).toEqual(
+      "-1, -2, Fizz, -4, Buzz"
+    );
+  });
+});
+
+fizzbuzz(-15)
