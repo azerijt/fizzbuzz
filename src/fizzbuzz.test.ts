@@ -15,5 +15,3 @@ describe("fizzbuzz", () => {
     );
   });
 });
-
-fizzbuzz(-15)

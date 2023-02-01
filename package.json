@@ -19,6 +19,7 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "type-check": "tsc --noEmit",
-    "start": "ts-node src/fizzbuzz.ts"
+    "start": "node generatedJS/fizzbuzz.js",
+    "dev": "ts-node ./src/fizzbuzz.ts"
   }
 }
