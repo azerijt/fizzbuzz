@@ -18,7 +18,7 @@ export default function fizzBuzz(n: number): string {
     result.push(value);
   }
 
-  return result.join(", ");
+  return result.join(", ") || "0";
 }
 
 
